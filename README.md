@@ -1,28 +1,51 @@
-# DSA210 - Weather Impact Analysis
-📌 1. Project Objective
-This project aims to analyze how weather conditions influence daily human activities. By examining daily temperature, precipitation, and other weather-related variables alongside external data such as social media trends, traffic congestion, or health records, I intend to uncover patterns and relationships between weather and human behavior.
+# DSA210 - Weather Impact Analysis 
 
-📌 2. Data Sources
-🔹 Weather Data 🌦️
-Source: OpenWeather API or MGM (Turkish Meteorological Service)
-Data Content: Daily temperature, precipitation, weather conditions (sunny, rainy, foggy, etc.), wind speed
-🔹 Additional Data for Enrichment 🔍
-Traffic congestion data (retrieved from Google Maps API)
-Social media activity data (Twitter trends, number of Reddit posts, etc.)
-Health-related data (disease rates, flu cases, etc.)
-📌 3. Data Collection Process
-Weather Data Collection: Data will be gathered using OpenWeather API.
-Additional Data Collection: Enriched with external datasets from Google Maps API, Twitter API, or other relevant sources.
-Data Cleaning & Analysis: Python (Pandas, NumPy) will be used for preprocessing, handling missing values, and structuring the dataset.
-📌 4. Planned Analyses
-Investigating the correlation between temperature and traffic congestion
-Analyzing whether social media activity increases on rainy days
-Studying the impact of weather fluctuations on public health (e.g., flu cases)
-📌 5. Tools and Technologies
-Python (Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn)
-API Usage (OpenWeather, Google Maps, Twitter API, etc.)
-Machine Learning (Regression models, time series analysis, etc.)
-📌 6. Expected Outcomes
-Understanding the impact of weather on daily activities and human behavior
-Presenting insights through visualizations and statistical findings
-Applying data science techniques to derive meaningful conclusions
+## 1. Project Objective  
+In this project, I will analyze how weather conditions affect people's daily activities.  
+By looking at daily temperature, precipitation, and other weather-related data together with additional sources like social media trends or traffic congestion, I aim to find meaningful patterns in human behavior.  
+
+---
+
+## 2. Data Sources  
+### Weather Data  
+- **Source:** [OpenWeather API](https://openweathermap.org/api) or [MGM (Turkish Meteorological Service)](https://www.mgm.gov.tr/)  
+- **Collected Data:**  
+  - Temperature  
+  - Precipitation (rain, snow, etc.)  
+  - Weather conditions (sunny, cloudy, stormy, etc.)  
+  - Wind speed  
+
+### Additional Data for Enrichment  
+To make the analysis more meaningful, I will combine the weather data with other sources:  
+- **Traffic Data** (Google Maps API) – To check if bad weather affects traffic congestion.  
+- **Social Media Data** (Twitter, Reddit) – To analyze if people use social media more during bad weather.  
+- **Health Data** (Public records) – To examine if weather has an effect on flu cases.  
+
+---
+
+## 3. Data Collection Process  
+- I will collect weather data using OpenWeather API.  
+- For additional datasets, I will retrieve traffic data from Google Maps API and social media trends from Twitter or Reddit.  
+- The collected data will be cleaned and structured using **Python (Pandas, NumPy).**  
+
+---
+
+## 4. Planned Analyses  
+- **Analyzing how different weather conditions affect traffic congestion levels.**  
+- **Examining whether social media usage is higher on rainy days.**  
+- **Studying the impact of temperature changes on flu cases.**  
+
+---
+
+## 5. Tools and Technologies  
+- **Programming Language:** Python  
+- **Libraries:** Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn  
+- **APIs Used:** OpenWeather, Google Maps, Twitter API  
+- **Machine Learning Techniques:** Regression models, time series analysis  
+
+---
+
+## 6. Expected Outcomes  
+- Understanding the relationship between weather conditions and daily human behavior.  
+- Presenting insights through visualizations and statistical findings.  
+- Applying data science techniques to derive meaningful conclusions.  
