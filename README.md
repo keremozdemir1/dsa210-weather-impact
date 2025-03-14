@@ -1,4 +1,4 @@
-# dsa210-weather-impact
+# DSA210 - Weather Impact Analysis
 📌 1. Project Objective
 This project aims to analyze how weather conditions influence daily human activities. By examining daily temperature, precipitation, and other weather-related variables alongside external data such as social media trends, traffic congestion, or health records, I intend to uncover patterns and relationships between weather and human behavior.
 
