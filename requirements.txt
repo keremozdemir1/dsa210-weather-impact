@@ -1,1 +1,10 @@
+python-dotenv
+requests
+pandas
+googlemaps
+tweepy
+scipy
+matplotlib
+seaborn
+statsmodels
 
